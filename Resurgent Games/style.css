@@ -86,6 +86,14 @@ body {
 }
 
 /*About Us Div*/
+#AboutUs {
+	position: relative;
+	background-image: url('Images/World of Tanks.jpg');
+	top: 0px;
+	left: 0px;
+	height: 800px;
+	width: 1520px;
+}
 /*About Us Image*/
 /*About Us Content*/
 /*About Us Content Image*/
