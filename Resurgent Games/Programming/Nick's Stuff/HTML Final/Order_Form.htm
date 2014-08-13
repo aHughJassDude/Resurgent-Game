@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>Order Now</title>
+
+<style type="text/css" media="all">
+
+/* Nick Joyce
+Fall 2008 Final Project */
+
+form {
+font-size: 12pt;
+font-family: verdana,sans-serif;
+position: absolute;
+left: 400px;
+top: 10px;
+width: 50%;
+background-color: darkgoldenrod; }
+
+button {
+color: darkred;
+background-color: goldenrod;
+border: darkred outset thick;
+margin-right: .5em;
+text-align: center;
+font-weight: bold;
+font-size: 14pt;
+font-family: times new roman, serif; }
+
+body {
+background-color: darkred; }
+
+#box {
+width: 350;
+height: 100px;
+position: absolute;
+border: black solid thick; 
+background-color: white;
+top: 530;
+left: 10;
+padding: .5em; }
+
+#box p {
+font-size: 11pt;
+font-weight: bold;
+font-family: verdana,sans-serif; }
+
+table {
+width: 100%;
+font-weight: bold;
+border-collapse: collapse;
+border: 0; }
+
+td {
+border: black solid thin;
+padding: .5em; }
+
+#td {
+border: darkred solid thin; }
+
+td.left {
+width: 30%; }
+
+td.right {
+width: 70%; }
+
+.center {
+text-align: center; }
+
+h1 {
+color: darkred;
+font-family: Triforce,serif;
+font-size: 36pt;
+text-align: center;
+padding-top: 9mm; }
+
+img.left {
+float: left; }
+
+#sidebar {
+font-size: 12pt;
+width: 250px;
+height: 375px;
+float: right;
+color: darkred;
+background-color: white;
+border: black thick solid;
+background-image: url(Zelda Castle.jpg); }
+
+#sidebar a:link {
+font-size: 12pt;
+color: darkred;
+font-weight: bold;
+display: block; }
+
+#sidebar a:visited {
+font-size: 12pt;
+font-weight: bold;
+color: white;
+text-decoration: none;
+display: block; }
+
+#sidebar a:hover {
+font-size: 13pt;
+font-weight: bold;
+color: darkgoldenrod;
+background-color: darkred;
+text-decoration: underline;
+border: black solid thin; }
+
+ol {
+line-height: 2.0em; }
+
+</style>
+</head>
+
+<body>
+
+<table id="td">
+<tr>
+<td>
+
+<p><img src="Game Case.jpg" alt="Twilight Princess Game Case" width="350" height="500" /></p>
+
+<div id="box">
+<p>Legend of Zelda: Twilight Princess for both the Nintendo Gamecube and the Nintendo Wii. Originally $49.99, now for only $35.99!</p>
+</div></td>
+<td>
+<div class="center">
+
+<form name="transaction" action="http://mywebsite.com/cgi-bin/myscript.cgi" method="post">
+
+<table>
+<tr>
+ <td colspan="2"><img src="Triforce 2.gif" alt="Twilight Princess Triforce Logo" width="100" class="left" height="100" /><span style="width: 100%; height: 50; font-size: 36pt; font-family: Triforce; color: darkred; filter: shadow(color=black, direction=45)"><h1>Place Order Here</h1></span></td>
+</tr>
+
+<tr>
+  <td class="left">Last Name</td>
+  <td class="right"><input type="text" id="lastname" size="25" maxlength="30" /></td>
+</tr>
+<tr>
+  <td>First Name</td>
+  <td><input type="text" id="firstname" size="25" maxlength="30" /></td>
+</tr>
+<tr>
+  <td>Address</td>
+  <td><input type="text" id="address" size="25" /></td>
+</tr>
+<tr>
+  <td>City</td>
+  <td><input type="text" id="city" size="25" /></td>
+</tr>
+<tr>
+  <td>State</td>
+  <td><input type="text" id="state" size="2" maxlength="2" /></td>
+</tr>
+<tr>
+  <td>Zip</td>
+  <td><input type="text" id="zipcode" size="5" /> - <input type="text" id="plusfour" size="4" /></td>
+</tr>
+
+<tr>
+  <td>System</td>
+  <td><input type="radio" name="system" value="gamecube" checked="checked" />Gamecube <input type="radio" name="system" value="wii" />Wii <input type="radio" name="system" value="both" />Both </td>
+</tr>
+
+<tr>
+  <td>Accessories</td>
+  <td><input type="checkbox" id="guidebook" value="guidebook" checked="checked" />Guide Book <input type="checkbox" id="music" value="music" />Official Soundtrack </td>
+</tr>
+
+<tr>
+  <td>Comments</td>
+  <td><textarea id="feedback" rows="5" cols="50"></textarea></td>
+</tr>
+
+<tr>
+  <td class="center" colspan="2">
+<button typw="submit">Submit Order</button>
+<button typw="reset">Cancel</button>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</td>
+<td>
+<div id="sidebar">
+
+<center><h3>Other Related Sites</h3></center>
+<ol>
+  <a href="http://www.zelda.com/"><li>Official Website</a> <!-- FIX THESE! -->
+  <a href="http://www.amazon.com/"><li>Amazon</a>
+  <a href="http://www.nintendo.com/"><li>Nintendo</a>
+<ol>
+
+</div>
+</td>
+</table>
+</body>
+</html>

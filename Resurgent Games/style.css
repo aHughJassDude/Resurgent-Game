@@ -1,0 +1,104 @@
+body {
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+	background-color: gray;
+}
+
+/*Sticky Top*/
+#StickyTop {
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	z-index: 2000;
+}
+/*Sticky Menu*/
+#StickyMenu {
+ 	position:absolute;
+ 	margin-left: 75px;
+ 	margin-top: 25px;
+}
+/*Menu Buttons*/
+.MenuButton {
+	text-decoration: none;
+ 	text-transform: uppercase;
+ 	color: white;
+ 	font-size: 16pt;
+ 	font-family: helvetica, arial, times;
+ 	margin: 3pt;
+}
+.MenuButton:hover {
+	color: red;
+}
+/*Sticky Logo*/
+#StickyLogo {
+	height: 50px;
+	width: 45px;
+	position: absolute;
+	float: left;
+	margin: 15px 10px 10px 15px;
+	background-color: red;
+}
+/*Hero Div*/
+#Hero {
+	position: relative;
+	background-image: url('Images/Metal Gear.jpg');
+	top: 0px;
+	left: 0px;
+	height: 800px;
+	width: 1520px;
+}
+/*Hero Box*/
+#HeroBox {
+	position: relative;
+	margin: 0% 0% 0% 75%;
+	width: 25%;
+	height: 100%;
+	float: right;
+	background-color: black;
+
+}
+/*Hero Title*/
+#HeroTitle {
+	position: relative;
+	margin: 45% 10% 5% 10%;
+	text-align: center;
+}
+/*Hero Text*/
+#HeroContent {
+	position: relative;
+	margin: 0% 10% 5% 10%;
+	text-align: left;
+	text-decoration: none;
+ 	color: white;
+ 	font-size: 12pt;
+ 	font-family: helvetica, arial, times;
+}
+/*Hero Button*/
+#HeroButton {
+	position: relative;
+	background-color: red;
+	height: 7%;
+	width: 60%;
+	text-align: center;
+	margin: 10% 20% 0% 20%;
+	padding: 5px 0px 0px 0px;
+}
+
+/*About Us Div*/
+/*About Us Image*/
+/*About Us Content*/
+/*About Us Content Image*/
+/*Triple Boxes*/
+/*Contact Us Div*/
+/*Contact Us Image*/
+/*Contact Us Form*/
+/*Contact Us Button*/
+/*Footer Div*/
+/*Footer Content*/
+/*Image Stretch*/
+#ImageStretch {
+	height: 100%;
+	width: 100%;
+	z-index: 500;
+}

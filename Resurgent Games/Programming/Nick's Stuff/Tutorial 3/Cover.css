@@ -1,0 +1,32 @@
+/* Nick Joyce
+September 16, 2008
+CoverNew.htm */
+
+body {
+font-size: 12pt;
+font-family: verdana,sans-serif;
+color: black;
+background-color: honeydew; }
+
+p {
+text-indent: 3em; }
+
+p.hanging {
+text-indent: -3em;
+margin-left: 3em; }
+
+h1 {
+color: blue; }
+
+h3 {
+color: teal; }
+
+address {
+text-transform: uppercase;
+font-weight: 900;
+font-style: normal; }
+
+em {
+font-style: bold;
+color: brown; }
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script type="text/javascript" src="jquery/jquery-1.11.1.js"></script>
+	<script>
+		$(document).ready
+		(
+			function() 
+			{
+				$('.image').hover 
+				(
+					function()
+					{
+						$(this).animate
+						(
+							{
+								'-webkit-mask-size': "150%"
+							}, 250
+						)
+					},
+					function()
+					{
+						$(this).animate
+						(
+							{
+								'-webkit-mask-size': "5%"
+							}, 250
+						)
+					}	
+				)
+			}
+		);
+	</script>
+</head>
+<body>
+<div id="BG1">
+<a href="#Step1"><div id="Adventure">Adventure!</div></a>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+	<div class="image">
+		<img src="Batman.jpg">
+	</div>
+
+</body>

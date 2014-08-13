@@ -1,0 +1,40 @@
+/* Created by Richard Lee in Thompson Hall, Room 114. The CareerNew.htm file links to this stylesheet. */
+
+body {
+font-size: 12 pt;
+font-family: arial,helvetica,sans-serif;
+color: black;
+background-color: ivory; }
+
+h6 {
+font-size: 24pt;
+letter-spacing: .3em;
+word-spacing: .2em;
+text-align: center; }
+
+p.hanging {
+text-indent: -4em;
+margin -left: 4em; }
+
+h3 {
+font-size: 12 pt;
+color: navy;
+text-transform: uppercase; }
+
+p.cap:first-letter {
+font-size: 36pt;
+font-family: arial,helvetica,sans-serif;
+margin-right: 4px;
+color: orange;
+background-color: black; }
+
+p.opening:first-line {
+font-size: 16pt;
+font-family: arial,helvetica,sans-serif;
+color: brown; }
+
+.center {
+text-align: center; }
+
+#offset {
+margin-left: 5%; }

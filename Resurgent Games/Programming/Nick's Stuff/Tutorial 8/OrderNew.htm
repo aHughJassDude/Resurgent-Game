@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>Wardrobe Wonderful Order Form</title>
+
+<style type="text/css" media="all">
+
+/* Nick Joyce
+December 1, 2008 */
+
+form {
+width: 60%;
+background-color: wheat; }
+
+body {
+background-color: cadetblue; }
+
+table {
+font-weight: bold;
+border-collapse: collapse; }
+
+td {
+border: black solid thin;
+padding: .2em; }
+
+td.left {
+width: 30%; }
+
+td.right {
+width: 70%; }
+
+.center {
+text-align: center; }
+
+h1 {
+text-align: center; }
+
+</style>
+</head>
+
+<body>
+
+<div class="center">
+
+<form name="order" action="http://mywebsite.com/cgi-bin/myscript.cgi" method="post">
+
+<table>
+<tr>
+<td colspan="2"><h1><img src="wardrobe.gif" alt="image of Wardrobe Wonderful logo" width="500" height="100" /></h1></td>
+</tr>
+
+<tr>
+  <td class="left">Enter E-mail Address</td>
+  <td class="right"><input type="text" id="email" size="30" /></td>
+</tr>
+
+<tr>
+  <td>Phone</td>
+  <td><input type="text" id="area code" size="3" maxlength="3" /><input type="text" id="exchange" size="3" maxlength="3" /><input type="text" id="extension" size="4" maxlength="4" /></td>
+</tr>
+
+<tr>
+  <td>Billing Address 1</td>
+  <td><input type="text" id="billaddress1" size="20" /></td>
+</tr>
+
+<tr>
+  <td>Billing Address 2</td>
+  <td><input type="text" id="billaddress2" size="20" /></td>
+</tr>
+
+<tr>
+  <td>City</td>
+  <td><input type="text" id="city" size="20" /></td>
+</tr>
+
+<tr>
+  <td>State</td>
+  <td><input type="text" id="state" size="2" maxlength="2" /></td>
+</tr>
+
+<tr>
+  <td>Zip</td>
+  <td><input type="text" id="zip" size="5" maxlength="5" /><input type="text" id="zipfour" size="4" maxlength="4" /></td>
+</tr>
+
+<tr>
+  <td>Country</td>
+  <td><input type="text" id="country" size="20" /></td>
+</tr>
+
+<!-- credit card information is below -->
+
+<tr>
+  <td class="left">Name as it Appears on Credit Card</td>
+  <td class="right"><input type="text" id="customer_name" size="20" /></td>
+</tr>
+
+<tr>
+  <td>Credit Card Name</td>
+  <td><select id="credit" size="1">
+<option>choose a credit card</option>
+<option>Visa</option>
+<option>Mastercard</option>
+<option>Discover</option>
+<option>American Express</option></select></td>
+</tr>
+
+<tr>
+  <td>Expiration Date Month</td>
+  <td><select id="month" size="1">
+<option>month</option>
+<option>01</option>
+<option>02</option>
+<option>03</option>
+<option>04</option>
+<option>05</option>
+<option>06</option>
+<option>07</option>
+<option>08</option>
+<option>09</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select></td>
+</tr>
+
+<tr>
+  <td>Expiration Date Year</td>
+  <td><select id="year" size="1">
+<option>year</option>
+<option>2010</option>
+<option>2011</option>
+<option>2012</option>
+<option>2013</option>
+<option>2014</option>
+<option>2015</option>
+<option>2016</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Card Number</td>
+<td><input type="text" id="number" size="20" /></td>
+</tr>
+
+<!-- radio buttons are below -->
+
+<tr>
+  <td>Shipping Method</td>
+  <td><input type="radio" name="shipping" value="standard" />Standard (6-9 business days)
+<br /><input type="radio" name="shipping" value="rush" checked="rush" />Rush (3-5 business days) 
+<br /><input type="radio" name="shipping" value="nextday" />Next Day (1 business day)</td>
+</tr>
+
+<!-- checkboxes are below --> 
+
+<tr>
+  <td>Special Handling
+<br /> (Check all that Apply)</td>
+  <td><input type="checkbox" id="handling" value="giftwrap" />Gift Wrap
+<br /><input type="checkbox" id="handling" value="ribbon" checked="ribbon" />Ribbon
+<br /><input type="checkbox" id="handling" value="bow" />Bow</td>
+</tr>
+
+<!-- command buttons are below -->
+
+<tr>
+  <td class="center" colspan="2"><input type="submit" value="Send Your Order" /><input type="reset" value="Start Over" /></td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>

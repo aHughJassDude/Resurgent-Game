@@ -1,0 +1,46 @@
+/* Nick Joyce
+October 1, 2008
+CookNew.htm */
+
+body {
+font-size: 12pt;
+font-family: verdana,sans-serif;
+background-image: url(Parchment.gif);
+background-color: white; }
+
+hr {
+height: 1em;
+color: navy;
+background-color: navy;
+border: green thick outset; }
+
+h2 {
+color: white;
+background-color: teal;
+border: navy thick outset;
+border-width: .5em;
+padding: 4px; }
+
+address {
+font-weight: bold;
+text-transform: uppercase;
+word-spacing: .5em; }
+
+#pans {
+border: navy thick solid;
+float: right;
+margin-left: 1em; }
+
+#frying {
+border: black thick solid;
+float: left;
+margin-right: 1em; }
+
+#pot {
+border: green thick solid;
+float: right;
+margin-left: 1em; }
+
+.newline {
+clear: both;
+margin-top: 2em; }
