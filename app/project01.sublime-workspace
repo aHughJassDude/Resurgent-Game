@@ -1,0 +1,358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"ki",
+				"kickstarter-card"
+			],
+			[
+				"mess",
+				"message-text"
+			],
+			[
+				"log",
+				"Log"
+			],
+			[
+				"msg",
+				"msg"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3964,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/jasmine01.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"clear",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"unins",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/feanor93/Documents/Resurgent-Game/Gruntfile.js",
+		"/Users/feanor93/Documents/HeartLands_Website/app/css/stylesheet.css",
+		"/Users/feanor93/Documents/HeartLands_Website/css/stylesheet.scss",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/docs/_includes/components/page-header.html",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/grunt-php/tasks/php.js",
+		"/Users/feanor93/Documents/HeartLands_Website/css/stylesheet.css",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/jquery/src/css.js",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/adm-zip/.idea/scopes/scope_settings.xml",
+		"/Users/feanor93/Documents/HeartLands_Website/sftp-config.json",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/.gitignore",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/jquery/src/css/addGetHookIf.js",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/test/Events/08-implicit-close-tags.json",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/fonts/glyphicons-halflings-regular.svg",
+		"/Users/feanor93/Documents/HeartLands_Website/Gruntfile.js",
+		"/Users/feanor93/Documents/exercism-docs/app/pages/process/fetching-exercises.md",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/docs/_data/core-team.yml",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/less/mixins/text-emphasis.less",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/docs/css.html",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/CNAME",
+		"/Users/feanor93/Documents/HeartLands_Website/index.php",
+		"/Users/feanor93/Documents/HeartLands_Website/node_modules/jquery/src/ajax/jsonp.js",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/docs/javascript.html",
+		"/Users/feanor93/Documents/HeartLands_Website/bootstrap/docs/_includes/getting-started/whats-included.html",
+		"/Users/feanor93/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/feanor93/exercism/javascript/word-count/word-count"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#social-media-icons-wrapper",
+			"jshint",
+			"png",
+			"br",
+			"message",
+			"userid",
+			"mail(",
+			"mail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jpg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1348,
+								1348
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "html",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 278.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "project01.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"scss",
+				"css/stylesheet.scss"
+			],
+			[
+				"giti",
+				"bootstrap/.gitignore"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"csssty",
+				"css/stylesheet.css"
+			],
+			[
+				"js/",
+				"js/heartlands.js"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"sp",
+				"word-count_test.spec.js"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"spec",
+				"bob_test.spec.js"
+			],
+			[
+				"bob",
+				"bob.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
