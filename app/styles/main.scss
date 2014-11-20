@@ -2,6 +2,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+@mixin desaturated() {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
 
 .browsehappy {
   margin: 0.2em 0;
@@ -12,7 +18,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  // padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -35,8 +41,60 @@ body {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.hero-image {
+  padding: 0;
+  // background-size: 100%;
+  // background-image: url("../images/hero_image01.jpg");
+  img {
+    width: 100%;
+  }
+}
+
+.introduction {
+  padding-top: 20px;
+}
+
 .media-icons {
   font-size: 64px;
+}
+
+.bio-container {
+  background-color: $gray-lighter;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 25px;
+  h3 {
+    font-weight: bold;
+  }
+  .bio-paragraph {
+    // font-style: italic;
+  }
+  .favorite-game {
+    font-style: italic;
+    &:before {
+      font-weight: bold;
+      font-style: normal;
+      content: "Favorite Game: \A";
+      white-space: pre;
+    }
+  }
+}
+
+.bio-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include desaturated;
+
+  img {
+    height: 150px;
+    position: relative;
+    right: 50px;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
